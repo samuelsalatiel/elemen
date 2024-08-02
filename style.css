@@ -1,0 +1,21 @@
+body{margin: 0;}
+div{margin-left: 5%;}
+.fter::after{
+    content: " - Remember this";
+}
+.fore::before {
+    content: "Read this -";
+  }
+  .fl::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+  .fline::first-line {
+    background-color: yellow;}
+    ::marker { 
+        color: red;
+      }
+     p::selection {
+        color: red;
+        background: yellow;
+      }
